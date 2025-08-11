@@ -16,7 +16,7 @@ const Footer = () => {
               <a href="https://www.instagram.com/caligolddrivellc?igsh=MWM0MXkybnkxMzA2aw==" className="text-gold hover:text-yellow-400 transition-colors">
                 📷 Instagram
               </a>
-              <a href="https://wa.me/16575624945" className="text-gold hover:text-yellow-400 transition-colors">
+              <a href="https://wa.me/16574624945" className="text-gold hover:text-yellow-400 transition-colors">
                 💬 WhatsApp
               </a>
             </div>
@@ -39,7 +39,7 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold text-gold mb-4">Contact</h4>
             <div className="space-y-2 text-gray-400">
-              <p>📞 657-562-4945</p>
+              <p>📞 Call (657) 462-4945</p>
               <p>
                 🌐 <a 
                   href="https://caligolddrive.com/" 
@@ -55,19 +55,8 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-gold/20 mt-8 pt-8 text-center space-y-4">
+        <div className="border-t border-gold/20 mt-8 pt-8 text-center">
           <p className="text-gray-400">&copy; 2024 CALI GOLD DRIVE. All rights reserved.</p>
-          <div className="flex flex-wrap items-center justify-center gap-x-1 gap-y-1">
-            <span className="text-gray-500 text-sm">Created with precision and purpose by</span>
-            <a 
-              href="https://wa.me/972594262092" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-gold hover:text-yellow-400 transition-colors text-sm font-medium hover:underline whitespace-nowrap"
-            >
-              A. Alarjah
-            </a>
-          </div>
         </div>
       </div>
     </footer>
