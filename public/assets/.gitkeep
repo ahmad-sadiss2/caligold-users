@@ -1,0 +1,13 @@
+# This file ensures the assets directory structure is maintained in git
+
+# Directory structure:
+# /assets/
+#   /heroes/          - Hero/background images
+#   /services/        - Service images  
+#   /avatars/         - Customer review avatars
+#   /vehicles/        - Vehicle images
+#   /features/        - Feature/why-choose-us images
+#   /service-areas/   - Service area images
+#   /general/         - General purpose images
+
+# Add your local images here and remove this file if needed 

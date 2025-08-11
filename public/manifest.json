@@ -1,0 +1,20 @@
+{
+  "name": "CALI GOLD DRIVE - Premium Ride Service",
+  "short_name": "CALI GOLD DRIVE",
+  "description": "Premium ride service across Southern California. Your Ride. Your Way. Always Gold.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#FFD700",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32",
+      "type": "image/x-icon"
+    }
+  ],
+  "categories": ["travel", "transportation", "business"],
+  "lang": "en-US",
+  "dir": "ltr"
+}
