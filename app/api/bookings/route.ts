@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://45.32.74.216/api';
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://api.caligolddrive.com/api';
 
 export async function POST(request: NextRequest) {
   try {

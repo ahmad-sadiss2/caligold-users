@@ -2,7 +2,7 @@
 export const config = {
   // API Configuration
   api: {
-    baseUrl: process.env.NEXT_PUBLIC_API_URL || 'http://45.32.74.216/api',
+    baseUrl: process.env.NEXT_PUBLIC_API_URL || 'https://api.caligolddrive.com/api',
     timeout: 10000,
   },
 

@@ -99,7 +99,7 @@ async function saveBookingFromPayment(paymentIntent: any) {
     console.log('💾 Saving booking from successful payment:', paymentIntent.id);
 
     // Create booking in database
-    const bookingResponse = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL || 'http://45.32.74.216/api'}/public/bookings`, {
+    const bookingResponse = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL || 'https://api.caligolddrive.com/api'}/public/bookings`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -204,7 +204,7 @@ async function saveBookingFromCheckoutSession(session: any) {
     console.log('💾 Saving booking from checkout session:', session.id);
 
     // Create booking in database
-    const bookingResponse = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL || 'http://45.32.74.216/api'}/public/bookings`, {
+    const bookingResponse = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL || 'https://api.caligolddrive.com/api'}/public/bookings`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
