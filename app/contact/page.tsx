@@ -149,7 +149,7 @@ export default function ContactPage() {
           <div className="absolute inset-0 bg-gradient-to-r from-gold/10 via-transparent to-gold/10" style={{ zIndex: 2 }} />
           <div className="relative z-10 flex flex-col items-center justify-center w-full">
             <motion.h1
-              className="text-4xl md:text-5xl font-extrabold text-gold drop-shadow-gold text-center mb-2 tracking-tight font-serif"
+              className="text-4xl md:text-5xl font-extrabold text-gold drop-shadow-gold text-center mb-2 tracking-tight"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.3, ease: "easeOut" }}
@@ -176,7 +176,7 @@ export default function ContactPage() {
             animate="visible"
             variants={fadeInUp}
           >
-            <h2 className="text-2xl font-bold text-gold mb-8 font-serif tracking-tight">Get in Touch</h2>
+            <h2 className="text-2xl font-bold text-gold mb-8 tracking-tight">Get in Touch</h2>
             <div className="space-y-7">
               {contactDetails.map((item, i) => (
                 <motion.div
@@ -190,7 +190,7 @@ export default function ContactPage() {
                 >
                   <span className="mt-1 drop-shadow-gold">{item.icon}</span>
                   <div>
-                    <div className="font-bold text-gold text-lg font-serif">
+                    <div className="font-bold text-gold text-lg">
                       {item.link ? (
                         <a href={item.link} target="_blank" rel="noopener noreferrer" className="hover:underline">
                           {item.label}
