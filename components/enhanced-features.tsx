@@ -1,4 +1,5 @@
 import { Heart, Users, Car, Shield, DollarSign, MapPin } from "lucide-react"
+import Link from "next/link"
 
 const features = [
   {

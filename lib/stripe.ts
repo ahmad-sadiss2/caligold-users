@@ -4,6 +4,10 @@ import { loadStripe, Stripe } from '@stripe/stripe-js';
 // Stripe configuration - Live keys for CALI GOLD DRIVE
 const stripePublishableKey = process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY;
 
+if (!stripePublishableKey) {
+  throw new Error('NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY is not defined in environment variables');
+}
+
 let stripePromise: Promise<Stripe | null>;
 
 export const getStripe = () => {

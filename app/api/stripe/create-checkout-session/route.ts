@@ -59,7 +59,7 @@ export async function POST(request: NextRequest) {
     // Real Stripe Checkout Session creation
     const Stripe = require('stripe');
     const stripe = new Stripe(stripeSecretKey, {
-      apiVersion: '2023-10-16',
+      apiVersion: '2025-02-24.acacia',
     });
 
     console.log('💳 LIVE MODE: Creating dynamic Stripe checkout session for CALI GOLD DRIVE');

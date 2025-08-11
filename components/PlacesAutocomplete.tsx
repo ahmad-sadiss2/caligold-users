@@ -57,8 +57,8 @@ const PlacesAutocomplete: React.FC<PlacesAutocompleteProps> = ({
   const inputRef = useRef<HTMLInputElement>(null);
   const suggestionsRef = useRef<HTMLDivElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
-  const debounceRef = useRef<number>();
-  const requestRef = useRef<AbortController>();
+  const debounceRef = useRef<NodeJS.Timeout | undefined>(undefined);
+  const requestRef = useRef<AbortController | undefined>(undefined);
 
   // Determine theme
   const isDark = isDarkTheme !== undefined ? isDarkTheme : 

@@ -76,7 +76,7 @@ const itemVariants = {
     opacity: 1, 
     y: 0,
     scale: 1,
-    transition: { duration: 0.6, ease: [0.42, 0, 0.58, 1] }
+    transition: { duration: 0.6, ease: "easeOut" as const }
   }
 };
 
@@ -88,7 +88,7 @@ const fadeInUp = {
     transition: {
       delay: i * 0.12,
       duration: 0.7,
-      ease: "easeOut",
+      ease: "easeOut" as const,
     },
   }),
 };

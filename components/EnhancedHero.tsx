@@ -40,7 +40,7 @@ const EnhancedHero: React.FC<EnhancedHeroProps> = ({
     transition: {
       duration: 3,
       repeat: Infinity,
-      ease: "easeInOut"
+      ease: "easeInOut" as const
     }
   };
 
@@ -143,10 +143,9 @@ const EnhancedHero: React.FC<EnhancedHeroProps> = ({
                   key={index}
                   className="text-center bg-black/40 backdrop-blur-sm rounded-xl p-3 lg:p-4 border border-gold/20 hover:border-gold/50 transition-all duration-300"
                   initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
+                  animate={floatingAnimation}
                   transition={{ delay: 1.2 + index * 0.1 }}
                   whileHover={{ scale: 1.05, y: -2 }}
-                  animate={floatingAnimation}
                   style={{ animationDelay: `${index * 0.5}s` }}
                 >
                   <div className="text-xl lg:text-2xl mb-1 lg:mb-2">{item.icon}</div>

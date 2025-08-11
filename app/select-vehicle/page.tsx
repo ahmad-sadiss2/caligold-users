@@ -1,7 +1,7 @@
 // app/select-vehicle/page.tsx - Updated with Real Stripe Integration
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Suspense } from "react";
 import { useRouter, useSearchParams } from 'next/navigation';
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
@@ -470,4 +470,21 @@ const VehicleSelectionPage = () => {
   );
 };
 
-export default VehicleSelectionPage; 
+// Wrapper component with Suspense boundary
+const VehicleSelectionPageWrapper = () => {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen bg-black text-white flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-gold mx-auto mb-4"></div>
+          <h2 className="text-2xl font-bold text-gold mb-2">Loading Vehicle Selection</h2>
+          <p className="text-gray-300">Please wait while we load the available vehicles...</p>
+        </div>
+      </div>
+    }>
+      <VehicleSelectionPage />
+    </Suspense>
+  );
+};
+
+export default VehicleSelectionPageWrapper; 
