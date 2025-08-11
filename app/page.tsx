@@ -323,7 +323,7 @@ const BookingForm = () => {
 
 Please confirm availability and pricing. Thank you!`;
 
-        const whatsappUrl = `https://wa.me/16575624945?text=${encodeURIComponent(message)}`;
+        const whatsappUrl = `https://wa.me/16574624945?text=${encodeURIComponent(message)}`;
         window.open(whatsappUrl, '_blank');
       } else {
         const error = await response.json();
@@ -882,7 +882,7 @@ const QuickContact = () => {
           <div className="space-y-4 sm:space-y-0 sm:flex sm:flex-row sm:gap-4 sm:justify-center">
             {/* WhatsApp Button - Enhanced Mobile */}
             <motion.a
-              href="https://wa.me/16575624945"
+                              href="https://wa.me/16574624945"
               className="block w-full sm:w-auto px-6 sm:px-8 py-4 bg-green-600 hover:bg-green-500 text-white font-bold rounded-xl transition-all duration-300 flex items-center justify-center space-x-2 shadow-lg hover:shadow-xl"
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
@@ -899,7 +899,7 @@ const QuickContact = () => {
               whileTap={{ scale: 0.98 }}
             >
               <span className="text-lg sm:text-xl">📞</span>
-              <span className="text-sm sm:text-base">Call (657) 462-4945</span>
+                              <span className="text-sm sm:text-base">Call (657) 562-4945</span>
             </motion.a>
           </div>
 
@@ -918,8 +918,8 @@ const QuickContact = () => {
             {/* Contact Methods Grid - Mobile Responsive */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 max-w-2xl mx-auto">
               {[
-                        { icon: "📞", label: "Phone", value: "(657) 562-4945", action: "tel:6575624945" },
-        { icon: "💬", label: "WhatsApp", value: "24/7 Support", action: "https://wa.me/16575624945" },
+                                      { icon: "📞", label: "Phone", value: "(657) 562-4945", action: "tel:6575624945" },
+              { icon: "💬", label: "WhatsApp", value: "24/7 Support", action: "https://wa.me/16574624945" },
                 { icon: "📧", label: "Email", value: "info@caligolddrive.com", action: "mailto:info@caligolddrive.com" }
               ].map((method, index) => (
                 <motion.a

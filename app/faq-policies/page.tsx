@@ -372,7 +372,7 @@ export default function FAQPoliciesPage() {
                 Contact Us
               </Link>
               <a
-                href="tel:657-562-4945"
+                href="tel:6575624945"
                 className="inline-block bg-transparent border border-gold text-gold font-bold px-8 py-3 rounded-lg hover:bg-gold hover:text-black transition-colors"
               >
                 Call Now

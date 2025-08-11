@@ -365,7 +365,7 @@ const BookingSuccessPage = () => {
               <h3 className="text-xl font-bold text-gold mb-4 text-center">Need immediate assistance?</h3>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <a
-                  href="https://wa.me/16575624945"
+                  href="https://wa.me/16574624945"
                   className="flex items-center space-x-2 bg-green-600 hover:bg-green-500 text-white px-6 py-3 rounded-lg transition-all duration-300"
                 >
                   <span>💬</span>

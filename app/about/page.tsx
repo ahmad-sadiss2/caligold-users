@@ -399,12 +399,12 @@ export default function AboutPage() {
                   <div className="flex items-center justify-center">
                     <span className="text-gold mr-2">📞</span>
                     <a href="tel:6575624945" className="hover:text-gold transition-colors">
-                      657-562-4945
+                      (657) 562-4945
                     </a>
                   </div>
                   <div className="flex items-center justify-center">
                     <span className="text-gold mr-2">💬</span>
-                    <a href="https://wa.me/16575624945" className="hover:text-gold transition-colors">
+                    <a href="https://wa.me/16574624945" className="hover:text-gold transition-colors">
                       WhatsApp
                     </a>
                   </div>

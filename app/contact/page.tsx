@@ -27,7 +27,7 @@ const contactDetails = [
       <svg className="w-7 h-7 text-gold" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M22 16.92V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h2.09a2 2 0 0 1 1.41.59l2.83 2.83a2 2 0 0 0 1.41.59H19a2 2 0 0 1 2 2v2.08" /></svg>
     ),
     label: "Phone",
-    value: "657-562-4945",
+    value: "(657) 562-4945",
     desc: "Call us anytime 24/7.",
     link: "tel:6575624945",
   },
@@ -36,9 +36,9 @@ const contactDetails = [
       <svg className="w-7 h-7 text-gold" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="10" rx="2" /><path d="M16 3v4M8 3v4" /></svg>
     ),
     label: "WhatsApp",
-    value: "657-562-4945",
+    value: "(657) 562-4945",
     desc: "Message us 24/7 for bookings & support.",
-    link: "https://wa.me/16575624945",
+    link: "https://wa.me/16574624945",
   },
   {
     icon: (

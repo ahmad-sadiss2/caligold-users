@@ -565,8 +565,8 @@ const generateContactFormCustomerEmailHTML = (contact: ContactFormEmailData): st
           <!-- Contact Information -->
           <div class="contact-info">
             <h3 style="margin: 0 0 15px; color: #1976d2;">📞 Contact Information</h3>
-            <p style="margin: 5px 0;"><strong>Phone:</strong> +1 (657) 462-4945</p>
-            <p style="margin: 5px 0;"><strong>WhatsApp:</strong> +1 (657) 462-4945</p>
+            <p style="margin: 5px 0;"><strong>Phone:</strong> +1 (657) 562-4945</p>
+<p style="margin: 5px 0;"><strong>WhatsApp:</strong> +1 (657) 562-4945</p>
             <p style="margin: 5px 0;"><strong>Email:</strong> info@caligolddrive.com</p>
             <p style="margin: 5px 0;"><strong>Service Areas:</strong> Los Angeles, Orange County, San Diego, Riverside</p>
           </div>

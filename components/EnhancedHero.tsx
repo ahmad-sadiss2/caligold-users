@@ -168,7 +168,7 @@ const EnhancedHero: React.FC<EnhancedHeroProps> = ({
                 Book Now
               </motion.a>
               <motion.a
-                href="https://wa.me/16575624945"
+                href="https://wa.me/16574624945"
                 className="px-6 lg:px-8 py-3 lg:py-4 bg-transparent border-2 border-gold text-gold font-bold text-base lg:text-lg rounded-xl hover:bg-gold hover:text-black transition-all duration-300 text-center"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -183,7 +183,7 @@ const EnhancedHero: React.FC<EnhancedHeroProps> = ({
               className="sm:hidden flex justify-center pt-4"
             >
               <motion.a
-                href="https://wa.me/16575624945"
+                href="https://wa.me/16574624945"
                 className="px-8 py-3 bg-gradient-to-r from-gold to-yellow-400 text-black font-bold text-lg rounded-xl hover:from-yellow-400 hover:to-gold transition-all duration-300 shadow-2xl"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}

@@ -243,7 +243,7 @@ const Header = () => {
                   {/* Enhanced Action Buttons for Mobile */}
                   <div className="pt-6 space-y-4 border-t border-gold/20">
                     <motion.a
-                      href="https://wa.me/16575624945"
+                      href="https://wa.me/16574624945"
                       className="block w-full bg-gradient-to-r from-gold to-yellow-400 text-black font-bold py-4 rounded-xl text-center hover:from-yellow-400 hover:to-gold transition-all duration-300 shadow-lg text-base sm:text-lg border border-gold/30"
                       initial={{ opacity: 0, y: 20 }}
                       animate={{ opacity: 1, y: 0 }}

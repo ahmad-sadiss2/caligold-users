@@ -39,7 +39,7 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold text-gold mb-4">Contact</h4>
             <div className="space-y-2 text-gray-400">
-              <p>📞 Call (657) 462-4945</p>
+              <p>📞 Call (657) 562-4945</p>
               <p>
                 🌐 <a 
                   href="https://caligolddrive.com/" 
